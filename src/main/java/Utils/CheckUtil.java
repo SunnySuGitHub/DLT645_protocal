@@ -39,10 +39,6 @@ public class CheckUtil {
             s += (data[i] & 0xff) % 256;
         }
 
-        if(s == data[j-1]) {
-            return true;
-        } else {
-            return  false;
-        }
+        return s == data[j-1];
     }
 }

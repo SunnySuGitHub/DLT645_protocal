@@ -51,7 +51,6 @@ public class BufferedHandler extends ByteToMessageDecoder {
                 in.discardReadBytes();
                 return;
             }
-
         }
     }
 

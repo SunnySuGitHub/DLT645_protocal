@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb18563a-5b0c-4101-829b-4dd40eb9d821" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entity/DataIdentify1997.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entity/DataIdentify1997.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Entity/ReadData1997.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entity/ReadData1997.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Handler/BufferedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Handler/BufferedHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Handler/BufferedHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Handler/BufferedHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Handler/MessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Handler/MessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/CheckUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/CheckUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Handler/BufferedHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="41" column="63" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
+            <state relative-caret-position="174">
+              <caret line="41" column="65" lean-forward="true" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,22 +30,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Entity/DataIdentify1997.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Entity/ReadData1997.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="158" column="36" selection-start-line="158" selection-start-column="36" selection-end-line="158" selection-end-column="36" />
+            <state relative-caret-position="168">
+              <caret line="62" column="104" selection-start-line="62" selection-start-column="104" selection-end-line="62" selection-end-column="104" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#6466#6467#0" expanded="true" />
+                <element signature="e#6502#6503#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,10 +46,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Handler/MessageHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="539">
+              <caret line="45" column="2" lean-forward="true" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ConvertUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Entity/ReadData1997.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#12592#12593#0" expanded="true" />
+                <element signature="e#12628#12629#0" expanded="true" />
+                <element signature="e#12685#12686#0" expanded="true" />
+                <element signature="e#12735#12736#0" expanded="true" />
+                <element signature="e#12770#12771#0" expanded="true" />
+                <element signature="e#12804#12805#0" expanded="true" />
+                <element signature="e#12855#12856#0" expanded="true" />
+                <element signature="e#12901#12902#0" expanded="true" />
+                <element signature="e#12932#12933#0" expanded="true" />
+                <element signature="e#12958#12959#0" expanded="true" />
+                <element signature="e#12997#12998#0" expanded="true" />
+                <element signature="e#13027#13028#0" expanded="true" />
+                <element signature="e#13067#13068#0" expanded="true" />
+                <element signature="e#13103#13104#0" expanded="true" />
+                <element signature="e#13161#13162#0" expanded="true" />
+                <element signature="e#13211#13212#0" expanded="true" />
+                <element signature="e#13246#13247#0" expanded="true" />
+                <element signature="e#13277#13278#0" expanded="true" />
+                <element signature="e#13325#13326#0" expanded="true" />
+                <element signature="e#13365#13366#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,17 +124,18 @@
         <option value="$PROJECT_DIR$/src/main/java/Entity/GlobalMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/Entity/DataIdentify.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utils/TimeUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Utils/CheckUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utils/ConvertUtil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Server/Server.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Handler/MessageHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/Handler/BufferedHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utils/CheckUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/Entity/ReadData1997.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Handler/MessageHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Entity/DataIdentify1997.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -136,6 +171,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Handler" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -147,7 +190,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573819973752" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573883957327" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../采集相关文件/新版采集程序/源代码/CenterCollectSystem" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -199,18 +242,18 @@
       <option name="presentableId" value="Default" />
       <updated>1573802538831</updated>
       <workItem from="1573802542320" duration="8352000" />
-      <workItem from="1573817883609" duration="2277000" />
+      <workItem from="1573817883609" duration="9713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10629000" />
+    <option name="totallyTimeSpent" value="18065000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13486141" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1663113" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -219,15 +262,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30368763" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37744033" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5444685" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.06616052" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4815618" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -240,9 +283,58 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1663113" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28091106" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37744033" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4815618" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Handler/BufferedHandler.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Entity/ReadData1997.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Entity/GlobalMap.java">
@@ -262,20 +354,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/CheckUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ConvertUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -312,13 +390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/DataIdentify1997.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1.jar!/io/netty/channel/ChannelHandlerInvokerUtil.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -347,20 +418,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Handler/BufferedHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ConvertUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="41" column="63" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
+        <state relative-caret-position="483">
+          <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/CheckUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Handler/MessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="45" column="2" lean-forward="true" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Handler/MessageHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Handler/BufferedHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="174">
+          <caret line="41" column="65" lean-forward="true" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -369,10 +454,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Entity/ReadData1997.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="158" column="36" selection-start-line="158" selection-start-column="36" selection-end-line="158" selection-end-column="36" />
+        <state relative-caret-position="239">
+          <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#12592#12593#0" expanded="true" />
+            <element signature="e#12628#12629#0" expanded="true" />
+            <element signature="e#12685#12686#0" expanded="true" />
+            <element signature="e#12735#12736#0" expanded="true" />
+            <element signature="e#12770#12771#0" expanded="true" />
+            <element signature="e#12804#12805#0" expanded="true" />
+            <element signature="e#12855#12856#0" expanded="true" />
+            <element signature="e#12901#12902#0" expanded="true" />
+            <element signature="e#12932#12933#0" expanded="true" />
+            <element signature="e#12958#12959#0" expanded="true" />
+            <element signature="e#12997#12998#0" expanded="true" />
+            <element signature="e#13027#13028#0" expanded="true" />
+            <element signature="e#13067#13068#0" expanded="true" />
+            <element signature="e#13103#13104#0" expanded="true" />
+            <element signature="e#13161#13162#0" expanded="true" />
+            <element signature="e#13211#13212#0" expanded="true" />
+            <element signature="e#13246#13247#0" expanded="true" />
+            <element signature="e#13277#13278#0" expanded="true" />
+            <element signature="e#13325#13326#0" expanded="true" />
+            <element signature="e#13365#13366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/DataIdentify1997.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="62" column="104" selection-start-line="62" selection-start-column="104" selection-end-line="62" selection-end-column="104" />
+          <folding>
+            <element signature="e#6466#6467#0" expanded="true" />
+            <element signature="e#6502#6503#0" expanded="true" />
           </folding>
         </state>
       </provider>
