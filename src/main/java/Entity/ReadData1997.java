@@ -26,7 +26,12 @@ public class ReadData1997 {
         } else {
             boolean check = CheckUtil.checkData(bytes);
             if (!check) {
-
+                System.out.println("check error");
+                System.out.print("error msg: ");
+                for(byte b : bytes){
+                    System.out.print(b + " ");
+                }
+                return;
             } else {
                 int[] read_ints = ConvertUtil.bytesToInts(bytes);
                 switch (read_ints[8])//read_int[8]为控制码

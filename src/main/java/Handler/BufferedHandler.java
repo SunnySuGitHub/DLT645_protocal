@@ -16,6 +16,13 @@ import java.util.List;
 public class BufferedHandler extends ByteToMessageDecoder {
 
 
+    /**
+     * 问题：重置readerIndex，为啥缓冲区里面没有之前的数据
+     * @param channelHandlerContext
+     * @param in
+     * @param out
+     * @throws Exception
+     */
     protected void decode(ChannelHandlerContext channelHandlerContext, ByteBuf in, List<Object> out) throws Exception {
         int rd = in.readerIndex();                          //获取最初readerIndex
         if (in.readableBytes() < 12) return;                //如果小于最小长度则返回
@@ -26,18 +33,25 @@ public class BufferedHandler extends ByteToMessageDecoder {
             curIdx++;
         }
         while (curIdx < bytes.length) {
-            if (bytes[curIdx] == 0x68 && bytes[curIdx + 7] == 0x68) {
-                int lengthOfData = bytes[curIdx + 9];
-                if (bytes[curIdx + 11 + lengthOfData] == 0x16) {
-                    byte[] message = new byte[12 + lengthOfData];
-                    System.arraycopy(bytes, curIdx, message, 0, 12 + lengthOfData);
-                    ReadData1997 readData1997 = new ReadData1997(message);
-                    if (readData1997 != null) out.add(readData1997);
+            try{
+                if (bytes[curIdx] == 0x68 && bytes[curIdx + 7] == 0x68) {
+                    int lengthOfData = bytes[curIdx + 9];
+                    if (bytes[curIdx + 11 + lengthOfData] == 0x16) {
+                        byte[] message = new byte[12 + lengthOfData];
+                        System.arraycopy(bytes, curIdx, message, 0, 12 + lengthOfData);
+                        ReadData1997 readData1997 = new ReadData1997(message);
+                        if (readData1997 != null) out.add(readData1997);
+                    }
+                    curIdx += 12 + lengthOfData;
+                } else {
+                    curIdx++;
                 }
-                curIdx += 12 + lengthOfData;
-            } else {
-                curIdx++;
+            } catch (IndexOutOfBoundsException e){
+                in.readerIndex(rd + curIdx);
+                in.discardReadBytes();
+                return;
             }
+
         }
     }
 
