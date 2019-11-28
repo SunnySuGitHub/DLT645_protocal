@@ -1,0 +1,12 @@
+#采集程序配置文件，注意请勿填写多余的空格
+
+#填写集中器访问的服务器的端口
+#protocolPort=**
+#填写数据库服务器的地址
+dbServer=47.111.144.250
+#数据库Id
+dbId=sa
+#数据库密码
+dbPwd=BYzhsw123
+#数据库名称
+database=mixAll

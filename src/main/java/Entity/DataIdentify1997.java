@@ -94,7 +94,7 @@ public class DataIdentify1997 {
 
 
     /**
-     * 小数点 todo 数据长度需要更改及相关逻辑
+     * 小数点
      */
     private static Map<String ,Integer> DOT =new HashMap<String ,Integer>(){{
         put(Arrays.toString(new byte[]{(byte)0x10,(byte)0x90}),2);//当前正向有功总电能

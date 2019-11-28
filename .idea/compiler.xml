@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="sxy" />
         <module name="DLT645_decode" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="9" />
+    <bytecodeTargetLevel target="8" />
   </component>
 </project>

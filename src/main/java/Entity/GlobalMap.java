@@ -11,7 +11,8 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class GlobalMap {
 
-    private static ConcurrentHashMap<String, ChannelHandlerContext> MAP = null;
+    //存放设备号和对应的设备
+    private static ConcurrentHashMap<String, Device> MAP = null;
 
     private GlobalMap(){
 
@@ -21,7 +22,7 @@ public class GlobalMap {
         if(MAP == null){
             synchronized (GlobalMap.class){
                 if(MAP == null){
-                    MAP = new ConcurrentHashMap<String, ChannelHandlerContext>();
+                    MAP = new ConcurrentHashMap<String, Device>();
                 }
             }
         }

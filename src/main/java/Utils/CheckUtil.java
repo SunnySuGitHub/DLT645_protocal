@@ -41,4 +41,39 @@ public class CheckUtil {
 
         return s == data[j-1];
     }
+
+    //整理数据标识，先低位，后高位
+    public static int[] getDataType(String string){
+        int[] dataType = new int[2];
+        //...
+        return dataType;
+    }
+
+    //根据传输速率修改速率特征字
+    public static int getSpeedCharacter(String rate){
+        int speed = Integer.parseInt(rate);
+        int speedCharacter=0;
+        switch (speed){
+            case 300:
+                speedCharacter = 2;
+                break;
+            case 600:
+                speedCharacter = 4;
+                break;
+            case 1200:
+                speedCharacter = 0;
+            case 2400:
+                speedCharacter = 16;
+                break;
+            case 4800:
+                speedCharacter = 32;
+                break;
+            case 9600:
+                speedCharacter = 64;
+                break;
+
+        }
+        return speedCharacter;
+    }
+
 }

@@ -50,6 +50,10 @@ public class Server {
     }
 
     public static void main(String[] args) {
+        new Thread(new ConditionMonitor()).start();
+        new Thread(new CommandFetcher()).start();
+        new Thread(new CommandExecutor()).start();
         new Server().run();
+
     }
 }
