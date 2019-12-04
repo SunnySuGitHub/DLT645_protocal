@@ -18,9 +18,6 @@ public class ClientHandler extends ChannelHandlerAdapter {
         int[] address = ConvertUtil.addressToBCD(str);
         int control = 0x81;
         int[] data = new int[]{0x10,0x90,23,34,23,41};
-        for (int i = 0; i <data.length ; i++) {
-            data[i] = data[i];
-        }
         SendData1997 sendData1997 = new SendData1997(address,control,data);
         System.out.println(sendData1997.toString());
         byte[] req = sendData1997.send();

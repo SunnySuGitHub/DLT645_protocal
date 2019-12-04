@@ -52,6 +52,7 @@ public class ConvertUtil {
     //把地址转化为BCD码
     public static int[] addressToBCD(String s) {
         String addr = s.trim();
+        //协议中
         while (addr.length()!=12)  addr = 0+addr;
         int[] res = new int[6];
         for(int i = 0 ;i < 12; i+=2){

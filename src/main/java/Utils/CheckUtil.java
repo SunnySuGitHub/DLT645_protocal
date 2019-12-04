@@ -1,5 +1,7 @@
 package Utils;
 
+import Params.CommandType;
+
 import static java.lang.System.arraycopy;
 
 /**
@@ -13,14 +15,14 @@ public class CheckUtil {
         arraycopy(address, 1, byteAddress, 0, 6);
         String addr = "";
         String EachByteAddress;
-        int bitdata;
+        int bitData;
         for(byte addr_b : byteAddress) {
             if (addr_b < 0) {
-                bitdata = addr_b+256;
+                bitData = addr_b+256;
             } else {
-                bitdata = addr_b;
+                bitData = addr_b;
             }
-            EachByteAddress = bitdata/16 + "" + bitdata%16 ;
+            EachByteAddress = bitData/16 + "" + bitData%16 ;
             addr = EachByteAddress + addr;
         }
         return addr;
@@ -42,10 +44,12 @@ public class CheckUtil {
         return s == data[j-1];
     }
 
-    //整理数据标识，先低位，后高位
-    public static int[] getDataType(String string){
-        int[] dataType = new int[2];
-        //...
+    //获取数据标识，先低位，后高位
+    public static int[] getDataType(CommandType commandType){
+        String value = commandType.getValue();
+        String DI0 = value.substring(0, 3);
+        String DI1 = value.substring(3, 6);
+        int[] dataType = new int[]{Integer.valueOf(DI0),Integer.valueOf(DI1)};
         return dataType;
     }
 
@@ -75,5 +79,40 @@ public class CheckUtil {
         }
         return speedCharacter;
     }
+
+    //将从站异常应答转化为错误信息
+    public static String getErrorMsg(int a){
+        String errorMsg="";
+        switch(a){
+            case 1:
+                errorMsg="非法数据";
+                break;
+            case 2:
+                errorMsg="数据标识错误";
+                break;
+            case 4:
+                errorMsg="密码错误";
+                break;
+            case 16:
+                errorMsg="年时区数超";
+                break;
+            case 32:
+                errorMsg="日时段数超";
+                break;
+            case 64:
+                errorMsg="费率数超";
+                break;
+        }
+        return errorMsg;
+    }
+
+    //将从数据库中获得的密码改为可传输的密码
+    //写数据时的密码
+//    public static int[] getPass(String string){
+//        Integer pass = Integer.valueOf(string);
+//
+//
+//    }
+
 
 }

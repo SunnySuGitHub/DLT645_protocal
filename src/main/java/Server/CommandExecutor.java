@@ -6,6 +6,7 @@ import Entity.GlobalMap;
 import Handler.SendHelper;
 import Params.CommandState;
 import Params.CommandType;
+import Utils.CheckUtil;
 import Utils.DBUtil;
 import Utils.LogUtil;
 import io.netty.channel.ChannelHandlerContext;
@@ -72,12 +73,34 @@ public class CommandExecutor implements Runnable {
         }
     }
 
+    /**
+     * 问题：
+     * 重读数据命令：从数据库获得的命令还是从站异常应答后重读数据？
+     * @param device
+     */
     private void executeCommands(Device device){
         Command command = device.getCurCommand();
         CommandType commandType = command.getCommandType();
+        String args1="",args2="";
         //根据不同指令发送消息
-        switch(commandType){
+        //读数据（由于数据标识过多，统一处理读数据的情况）
+        if (commandType.getValue().startsWith("0")){
+            SendHelper.readData(device,commandType);
+        }
+        else {
+            switch(commandType){
+                //写数据：
+                case WRITE_DATA:
+                    args1 = command.getArgs1();//数据
+                    args2 =command.getArgs2();//密码
 
+                //更改通信速率：
+                case MODIFY_COMM_SPEED:
+                    args1 = command.getArgs1();//拿到要改为的速率
+                    SendHelper.modifyCommSpeed(device,args1);
+                    break;
+
+            }
         }
 
     }

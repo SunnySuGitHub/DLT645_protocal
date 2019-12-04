@@ -40,7 +40,7 @@ public class ReadData1997 {
             this.controlCode = read_ints[8];  //控制码
             int lengthOfData = read_ints[9];  //数据域长度
 
-            if (read_ints.length>12&&lengthOfData==1){//对于更改速率的应答，数据域中无标识符，只有一个字节
+            if (read_ints.length>12&&lengthOfData==1){//对于更改速率的应答，数据域中无标识符，只有一个字节；从站异常应答也是如此
                 this.effectiveData = new int[]{read_ints[10]};
             }
 

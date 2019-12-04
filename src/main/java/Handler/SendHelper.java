@@ -2,6 +2,7 @@ package Handler;
 
 import Entity.Device;
 import Entity.SendData1997;
+import Params.CommandType;
 import Params.Constants;
 import Utils.CheckUtil;
 import Utils.ConvertUtil;
@@ -17,12 +18,11 @@ public class SendHelper {
     /**
      * 请求读数据
      * @param device
-     * @param deviceAddress 从数据库得来的地址域
-     * @param dataType 从数据库得来的想获取的数据种类(数据标识)
+     * @param commandType 从数据库得来的想获取的数据种类(数据标识)
      */
-    public static void readData(Device device,String deviceAddress, String dataType){
-        int[] address = ConvertUtil.addressToBCD(deviceAddress);
-        int[] data = CheckUtil.getDataType(dataType);
+    public static void readData(Device device, CommandType commandType){
+        int[] address = ConvertUtil.addressToBCD(device.getDeviceNo());
+        int[] data = CheckUtil.getDataType(commandType);
         int control = 0x01;
         SendData1997 sendData1997 = new SendData1997(address,control,data);
         writeAndFlush(device,sendData1997.send());
@@ -43,7 +43,6 @@ public class SendHelper {
             data[i] = dataType[i];
         }
         SendData1997 sendData1997 = new SendData1997(address,control,data);
-
         writeAndFlush(device,sendData1997.send());
     }
 
@@ -60,15 +59,17 @@ public class SendHelper {
     }
 
     //写数据（暂时没有相应的数据标识）
-    public static void writeData(){
-        int[] address = Constants.BROADCAST;
+    //问题：写的是啥数据？也是当前正向有功总电能等等嘛？
+    public static void writeData(Device device){
+        int[] address = ConvertUtil.addressToBCD(device.getDeviceNo());
         int control = 0x04;
+
 
     }
 
     /**
      * 广播校时
-     * 仅当从站的日历和时钟与主站的时差在正负5min以内时执行校时命令，but how?
+     * 问题：仅当从站的日历和时钟与主站的时差在正负5min以内时执行校时命令，but how?
      */
     public static void Timing(){
         int[] address = Constants.BROADCAST;
@@ -95,10 +96,10 @@ public class SendHelper {
     }
 
     /**
-     *更改通信速率
+     *更改通信速率,请求用1200bps以外的速率通信
      */
-    public static void modifyCommunicationSpeed(Device device,String deviceAddress,String rate){
-        int[] address = ConvertUtil.addressToBCD(deviceAddress);
+    public static void modifyCommSpeed(Device device,String rate){
+        int[] address = ConvertUtil.addressToBCD(device.getDeviceNo());
         int control = 0x09;
         int rateCharacter = CheckUtil.getSpeedCharacter(rate);
         int[] data = new int[]{rateCharacter};
@@ -106,6 +107,14 @@ public class SendHelper {
         writeAndFlush(device,sendData1997.send());
     }
 
+    /**
+     * 修改密码
+     */
+    public static void modifyPass(Device device,String deviceAddress,String pass){
+        int[] address = ConvertUtil.addressToBCD(deviceAddress);
+        int control = 0x0F;
+        //...
+    }
     /**
      *最大需求量清零
      */

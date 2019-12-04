@@ -1,7 +1,9 @@
 package Test;
 
+import Entity.DataIdentify1997;
 import Handler.MessageHandler;
 import Handler.SendHelper;
+import Params.CommandType;
 import Utils.ConvertUtil;
 import Utils.LogUtil;
 import Utils.TimeUtil;
@@ -14,9 +16,12 @@ import javax.sound.midi.SoundbankResource;
 import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.Calendar;
+import java.util.Map;
 
 public class TestDecode {
 
+    private int low;
+    private int high;
 
     @Test
     public void test1() {
@@ -147,6 +152,7 @@ public class TestDecode {
          }
          System.out.println("可以到这里！");
      }
+
      @Test
     public void test10(){
          int[] data = new int[]{0x10,0x90,23,34,23,41};
@@ -162,13 +168,83 @@ public class TestDecode {
 
      @Test
     public void test11(){
-        int a =0x10;
-        int b = 0x90;
+        int a ='W';
+        int b = 'D';
          System.out.println(a);
          System.out.println(b);
          System.out.println((byte)a);
          System.out.println((byte)b);
      }
 
+     @Test
+    public void test12(){
+        String a = "modify_Comm_Speed";
+        System.out.println(a.toUpperCase());
+     }
 
+     @Test
+    public void test13(){
+//        CommandType commandType =CommandType.CUR_NEGATIVE_ACTIVE_POWER;
+//        if (commandType.getValue().startsWith("0")) {
+//            System.out.println(commandType.getValue());
+//            int[] data = CheckUtil.getDataType(commandType);
+//            System.out.println(Arrays.toString(data));
+//        }
+//         System.out.println("*****************");
+//         String value = commandType.getValue();
+//         System.out.println(value);
+//         String substring1 = value.substring(0, 3);
+//         String substring2 = value.substring(3, 6);
+//         int[] dataType = new int[]{Integer.valueOf(substring1),Integer.valueOf(substring2)};
+//         System.out.println(Arrays.toString(dataType));
+//
+//         byte[] bytes = {(byte) 0x10, (byte) 0x90};
+//         System.out.println(Arrays.toString(bytes));
+
+
+     }
+
+     @Test
+    public void test14(){
+        int a ='R';
+        String b="RRR";
+         byte[] bytes = b.getBytes();
+         System.out.println(Arrays.toString(bytes));
+     }
+
+     @Test
+    public void test15(){
+        //一个数字分为两个字节，高位在后
+        int num=2;
+        int offset = 0;
+        int[] data=new int[2];
+        int high = (num >>> 8);
+        int low = num & 0xff;
+        data[offset] = low;
+        data[offset + 1] = high;
+        System.out.println(Arrays.toString(data));
+     }
+
+     @Test
+    public void test16(){
+        ////获得一个整数（不超过两位）的BCD码
+        int num =99;
+         int i = (((num / 10) << 4) & 0xf0) | ((num % 10) & 0x0f);
+         System.out.println(i);
+     }
+
+     @Test
+    public void test17(){
+        String s = "101010101001";
+         int[] ints = ConvertUtil.addressToBCD(s);
+         System.out.println(Arrays.toString(ints));
+         byte[] b = new byte[ints.length+1];
+         b[0]=0;
+         for (int i=0;i<ints.length;i++){
+             b[i+1]=(byte) ints[i];
+         }
+         System.out.println(Arrays.toString(b));
+         String s1 = CheckUtil.GetBCDAddress(b);
+         System.out.println(s1);
+     }
 }

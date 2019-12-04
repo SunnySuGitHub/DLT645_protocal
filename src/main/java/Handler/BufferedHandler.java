@@ -24,7 +24,7 @@ public class BufferedHandler extends ByteToMessageDecoder {
      */
     @Override
     protected void decode(ChannelHandlerContext channelHandlerContext, ByteBuf in, List<Object> out) throws Exception {
-        int rd = in.readerIndex();                          //获取最初readerIndex
+        int rd = in.readerIndex(); //获取最初readerIndex
         if (in.readableBytes() < 12)
             return;  //如果小于最小长度则返回
         byte[] bytes = new byte[in.readableBytes()];
