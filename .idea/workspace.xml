@@ -2,41 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb18563a-5b0c-4101-829b-4dd40eb9d821" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/2019年12月/dataLog12月3日.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/2019年12月/dataLog12月9日.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/Client2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Entity/ReadData1997.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entity/ReadData1997.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Handler/BufferedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Handler/BufferedHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Handler/MessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Handler/MessageHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Handler/SendHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Handler/SendHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Params/CommandType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Params/CommandType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Server/CommandExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server/CommandExecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Test/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/TestCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/TestCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Test/TestDecode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/TestDecode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/TestMyBatis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/TestMyBatis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/CheckUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/CheckUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/ConvertUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/ConvertUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Entity/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entity/Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Entity/Device.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entity/Device.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Entity/GlobalMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entity/GlobalMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/TimeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/TimeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entity/ReadData1997.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entity/ReadData1997.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Handler/MessageHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Handler/MessageHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Handler/SendHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Handler/SendHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/sxy.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Params/CommandType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Params/CommandType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Server/CommandExecutor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Server/CommandExecutor$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Server/CommandExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Server/CommandExecutor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Server/Server.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Test/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/ClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test/DeviceMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test/DeviceMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test/TestCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/TestCommand.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Test/TestDecode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/TestDecode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test/TestMyBatis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/TestMyBatis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utils/CheckUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utils/CheckUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utils/ConvertUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utils/ConvertUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utils/DBUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utils/DBUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utils/LogUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utils/LogUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/TimeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utils/TimeUtil.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +50,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574058006433" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="E:/编程/CenterCollectSystem" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -78,8 +61,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="mappers" />
       <recent name="Test" />
+      <recent name="mappers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\imisf\Desktop\pro\DLT645_protocal\src\main\java\mappers" />
@@ -101,7 +84,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestDecode.test11">
+  <component name="RunManager" selected="Application.Client2">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Client" />
+      <module name="sxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Client2" />
+      <module name="sxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server.Server" />
+      <module name="sxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestDecode.test11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sxy" />
       <extension name="coverage">
@@ -118,7 +140,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDecode.test12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDecode.test18" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sxy" />
       <extension name="coverage">
         <pattern>
@@ -128,55 +150,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Test" />
       <option name="MAIN_CLASS_NAME" value="Test.TestDecode" />
-      <option name="METHOD_NAME" value="test12" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDecode.test13" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sxy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TestDecode" />
-      <option name="METHOD_NAME" value="test13" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDecode.test16" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sxy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TestDecode" />
-      <option name="METHOD_NAME" value="test16" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDecode.test17" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sxy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TestDecode" />
-      <option name="METHOD_NAME" value="test17" />
+      <option name="METHOD_NAME" value="test18" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -184,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client2" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="JUnit.TestDecode.test18" />
         <item itemvalue="JUnit.TestDecode.test11" />
-        <item itemvalue="JUnit.TestDecode.test12" />
-        <item itemvalue="JUnit.TestDecode.test13" />
-        <item itemvalue="JUnit.TestDecode.test17" />
-        <item itemvalue="JUnit.TestDecode.test16" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +189,16 @@
       <workItem from="1575112434135" duration="1008000" />
       <workItem from="1575180901596" duration="68000" />
       <workItem from="1575334090899" duration="8747000" />
-      <workItem from="1575419400955" duration="18722000" />
+      <workItem from="1575419400955" duration="20340000" />
+      <workItem from="1575525052497" duration="1507000" />
+      <workItem from="1575533222103" duration="598000" />
+      <workItem from="1575592710496" duration="4027000" />
+      <workItem from="1575852050792" duration="3566000" />
+      <workItem from="1575940030170" duration="1515000" />
+      <workItem from="1576138449311" duration="666000" />
+      <workItem from="1576204644928" duration="600000" />
+      <workItem from="1576232944749" duration="56000" />
+      <workItem from="1576238451738" duration="618000" />
     </task>
     <servers />
   </component>
@@ -242,11 +225,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Handler/SendHelper.java</url>
-          <line>124</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Server/CommandExecutor.java</url>
           <line>90</line>
           <option name="timeStamp" value="9" />
@@ -255,6 +233,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Handler/MessageHandler.java</url>
           <line>119</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Utils/CheckUtil.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Handler/SendHelper.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

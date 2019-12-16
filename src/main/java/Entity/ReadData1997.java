@@ -61,8 +61,6 @@ public class ReadData1997 {
                 this.dataType = type;
                 this.dot = DataIdentify1997.getDot().get(Arrays.toString(type));
             }
-
-
         }
     }
 

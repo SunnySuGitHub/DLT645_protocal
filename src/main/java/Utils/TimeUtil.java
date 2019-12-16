@@ -1,6 +1,5 @@
 package Utils;
 
-import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -48,13 +47,12 @@ public class TimeUtil {
     }
 
     public static int[] getTime(){
-
+        //数据域:秒、分、时、日、月、年
         String str = TimeUtil.getCurrentTime();
         int[] time = new int[]{Integer.valueOf(str.substring(17,19)),Integer.valueOf(str.substring(14,16)),
                 Integer.valueOf(str.substring(11,13)),Integer.valueOf(str.substring(8,10)),
                 Integer.valueOf(str.substring(5,7)),Integer.valueOf(str.substring(2,4))};
         return time;
-
     }
 
 }

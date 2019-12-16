@@ -59,7 +59,7 @@ public class SendHelper {
     }
 
     //写数据（暂时没有相应的数据标识）
-    //问题：写的是啥数据？也是当前正向有功总电能等等嘛？
+    //问题：写的是啥数据？
     public static void writeData(Device device){
         int[] address = ConvertUtil.addressToBCD(device.getDeviceNo());
         int control = 0x04;

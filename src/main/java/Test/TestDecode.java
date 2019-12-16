@@ -11,6 +11,7 @@ import com.sun.org.apache.xml.internal.res.XMLErrorResources_tr;
 import org.junit.Test;
 
 import Utils.CheckUtil;
+import sun.util.resources.cldr.mr.TimeZoneNames_mr;
 
 import javax.sound.midi.SoundbankResource;
 import java.time.LocalDateTime;
@@ -246,5 +247,14 @@ public class TestDecode {
          System.out.println(Arrays.toString(b));
          String s1 = CheckUtil.GetBCDAddress(b);
          System.out.println(s1);
+     }
+
+     @Test
+    public void test18(){
+        String s = "459378000004";
+         int[] ints = ConvertUtil.addressToBCD(s);
+         System.out.println(Arrays.toString(ints));
+         int[] time = TimeUtil.getTime();
+         System.out.println(Arrays.toString(time));
      }
 }

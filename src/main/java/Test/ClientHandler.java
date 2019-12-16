@@ -22,8 +22,10 @@ public class ClientHandler extends ChannelHandlerAdapter {
         System.out.println(sendData1997.toString());
         byte[] req = sendData1997.send();
         System.out.println(Arrays.toString(req));
-        firstMessage= Unpooled.buffer(req.length);
-        firstMessage.writeBytes(req) ;
+        for (int i = 0; i < 3; i++) {
+            firstMessage= Unpooled.buffer(req.length);
+            firstMessage.writeBytes(req) ;
+        }
     }
 
     @Override
