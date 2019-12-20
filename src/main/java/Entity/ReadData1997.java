@@ -18,7 +18,7 @@ public class ReadData1997 {
     private int controlCode;         //控制码
     private Integer dot;              //确定小数点
     private String deviceAddress;     //表地址
-    private String dataType;          //数据标识
+    private byte[] dataType;     //数据标识
 
     public ReadData1997(byte[] bytes) {
         /**
@@ -39,18 +39,28 @@ public class ReadData1997 {
             int[] read_ints = ConvertUtil.bytesToInts(bytes);
             this.controlCode = read_ints[8];  //控制码
             int lengthOfData = read_ints[9];  //数据域长度
-            byte[] type = new byte[2];   // 两字节的数据标识
-            int[] data = new int[lengthOfData - 2]; //除去两字节的数据标识剩下的数据长度
-            for (int t = 0; t < 2; t++) {
-                type[t] = (byte) (read_ints[10 + t] - 0x33);         //构建数据标识 DI0 DI1
+
+            if (read_ints.length>12&&lengthOfData==1){//对于更改速率的应答，数据域中无标识符，只有一个字节；从站异常应答也是如此
+                this.effectiveData = new int[]{read_ints[10]};
             }
-            for (int d = 0; d < lengthOfData - 2; d++) {
-                data[d] = read_ints[12 + d] - 0x33;                  //获取真正数据域
-                data[d] = Integer.valueOf(ConvertUtil.intToHex(data[d]));
+
+            if (read_ints.length>12&&lengthOfData>=2){//在有数据域的情况下
+                byte[] type = new byte[2];   // 两字节的数据标识
+                int[] data = new int[lengthOfData - 2]; //除去两字节的数据标识剩下的数据长度
+
+                for (int t = 0; t < 2; t++) {
+                    type[t] = (byte) (read_ints[10 + t] - 0x33);  //构建数据标识 DI0 DI1
+                }
+                if (lengthOfData>2){
+                    for (int d = 0; d < lengthOfData - 2; d++) {
+                        data[d] = read_ints[12 + d] - 0x33;                  //获取真正数据域
+                        //data[d] = Integer.parseInt(ConvertUtil.intToHex(data[d]));//会报异常：NumberFormatException.forInputString
+                    }
+                }
+                this.effectiveData = data;
+                this.dataType = type;
+                this.dot = DataIdentify1997.getDot().get(Arrays.toString(type));
             }
-            this.effectiveData = data;
-            this.dataType = DataIdentify1997.getIdentify_Name().get(Arrays.toString(type)); //获取数据标识
-            this.dot = DataIdentify1997.getDot().get(Arrays.toString(type));
         }
     }
 
@@ -86,11 +96,22 @@ public class ReadData1997 {
         this.deviceAddress = deviceAddress;
     }
 
-    public String getDataType() {
+    public byte[] getDataType() {
         return dataType;
     }
 
-    public void setDataType(String dataType) {
+    public void setDataType(byte[] dataType) {
         this.dataType = dataType;
+    }
+
+    @Override
+    public String toString() {
+        return "ReadData1997{" +
+                "effectiveData=" + Arrays.toString(effectiveData) +
+                ", controlCode=" + controlCode +
+                ", dot=" + dot +
+                ", deviceAddress='" + deviceAddress + '\'' +
+                ", dataType=" + Arrays.toString(dataType) +
+                '}';
     }
 }

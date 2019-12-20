@@ -1,0 +1,28 @@
+2019-12-03T15:58:28.879
+¾ 123456789012 –!
+¿!
+
+2019-12-03T16:00:36.890
+ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=129, dot=2, deviceAddress='123456789012', dataType=[16, -112]}
+
+2019-12-03T16:51:22.118
+ReadData1997{effectiveData=[], controlCode=129, dot=2, deviceAddress='123456789012', dataType=[16, -112]}
+
+2019-12-03T16:53:54.205
+ReadData1997{effectiveData=[], controlCode=129, dot=2, deviceAddress='123456789012', dataType=[16, -112]}
+
+2019-12-03T16:55:34.990
+ReadData1997{effectiveData=null, controlCode=129, dot=null, deviceAddress='123456789012', dataType=null}
+
+2019-12-03T16:56:33.795
+ReadData1997{effectiveData=null, controlCode=129, dot=null, deviceAddress='123456789012', dataType=null}
+
+2019-12-03T16:59:31.073
+ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=129, dot=2, deviceAddress='123456789012', dataType=[16, -112]}
+
+2019-12-03T17:02:20.745
+ReadData1997{effectiveData=null, controlCode=129, dot=null, deviceAddress='123456789012', dataType=null}
+
+2019-12-03T17:05:11.332
+ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=129, dot=2, deviceAddress='123456789012', dataType=[16, -112]}
+

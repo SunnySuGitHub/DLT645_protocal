@@ -2,7 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb18563a-5b0c-4101-829b-4dd40eb9d821" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/2019年11月/dataLog11月26日.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/2019年11月/dataLog11月27日.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/2019年12月/dataLog12月3日.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/2019年12月/dataLog12月9日.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/debugLog.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/debugLog.log.2019-11-26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Entity/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Entity/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Entity/SendData1997.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Handler/SendHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Params/CommandState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Params/CommandType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Params/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Server/CommandExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Server/CommandFetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Server/ConditionMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/Client2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/TestCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/TestDecode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/TestMyBatis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/LogUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/MyBatis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mappers/CommandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mappers/CommandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mappers/DeviceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mappers/DeviceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Entity/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Entity/Device.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Entity/SendData1997.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Handler/SendHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Params/CommandState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Params/CommandType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Params/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Server/CommandExecutor$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Server/CommandExecutor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Server/CommandFetcher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Server/ConditionMonitor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Test/Client$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Test/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Test/Client2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Test/Client2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Test/ClientHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Test/TestCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Test/TestDecode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Test/TestMyBatis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Utils/DBUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Utils/LogUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Utils/MyBatis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mappers/CommandMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mappers/CommandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mappers/DeviceMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mappers/DeviceMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entity/DataIdentify1997.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entity/DataIdentify1997.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entity/GlobalMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entity/GlobalMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entity/ReadData1997.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entity/ReadData1997.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Handler/BufferedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Handler/BufferedHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Handler/MessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Handler/MessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/CheckUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/CheckUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/ConvertUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/ConvertUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/TimeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/TimeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entity/DataIdentify1997$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entity/DataIdentify1997$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entity/DataIdentify1997$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entity/DataIdentify1997.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entity/GlobalMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entity/ReadData1997.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Handler/BufferedHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Handler/MessageHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Server/Server$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Server/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/CheckUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/ConvertUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/TimeUtil.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,11 +99,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Handler/BufferedHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
+            <state relative-caret-position="116">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,44 +112,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Entity/DataIdentify1997.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
-              <folding>
-                <element signature="e#8947#8948#0" expanded="true" />
-                <element signature="e#8983#8984#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Handler/MessageHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-97">
-              <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ConvertUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Entity/ReadData1997.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="52" column="76" lean-forward="true" selection-start-line="52" selection-start-column="76" selection-end-line="52" selection-end-column="76" />
+            <state relative-caret-position="501">
+              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,11 +154,14 @@
         <option value="$PROJECT_DIR$/src/main/java/Utils/ConvertUtil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Server/Server.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Handler/BufferedHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Entity/DataIdentify1997.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Test/TestDecode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Server/CommandExecutor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Handler/SendHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Handler/MessageHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utils/CheckUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/Entity/ReadData1997.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Handler/MessageHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Entity/DataIdentify1997.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Handler/BufferedHandler.java" />
       </list>
     </option>
   </component>
@@ -122,7 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,17 +201,42 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Params" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574058006433" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576810435605" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../采集相关文件/新版采集程序/源代码/CenterCollectSystem" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -214,22 +292,24 @@
       <workItem from="1573817883609" duration="14939000" />
       <workItem from="1574214716340" duration="594000" />
       <workItem from="1574390384432" duration="165000" />
+      <workItem from="1576810727902" duration="582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24050000" />
+    <option name="totallyTimeSpent" value="25038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.114072494" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21588486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.30043384" />
@@ -240,7 +320,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.7906724" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.6670282" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -370,33 +450,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/CheckUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Handler/BufferedHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ConvertUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+        <state relative-caret-position="504">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Entity/DataIdentify1997.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
+        <state relative-caret-position="672">
           <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
           <folding>
             <element signature="e#8947#8948#0" expanded="true" />
@@ -405,20 +468,114 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test/Client2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test/ClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test/TestCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test/TestDecode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1785">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test/TestMyBatis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Handler/MessageHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
-          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+        <state relative-caret-position="-546">
+          <caret line="52" column="80" selection-start-line="52" selection-start-column="80" selection-end-line="52" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Handler/SendHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Server/CommandFetcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/CheckUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Server/CommandExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="87" column="52" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/ReadData1997.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/ReadData1997.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Handler/BufferedHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="52" column="76" lean-forward="true" selection-start-line="52" selection-start-column="76" selection-end-line="52" selection-end-column="76" />
+        <state relative-caret-position="116">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

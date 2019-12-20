@@ -7,7 +7,8 @@ import java.util.Arrays;
  * @DateTme: 2019/11/15 16:23
  */
 public class ConvertUtil {
-    static char[] BCDCode=new char[]{'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F','0'};
+    static char[] BCDCode = new char[]{'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', '0'};
+
     public static String ToHex(byte[] bytes) {
         int[] read_ints = new int[bytes.length];
         for (int i = 0; i < bytes.length; i++) {
@@ -20,31 +21,46 @@ public class ConvertUtil {
         String str_addr = "";
         String EachByteAddress;
         for (int addr_b : read_ints) {
-            EachByteAddress = BCDCode[addr_b / 16]+""+ BCDCode[addr_b % 16] +" ";
-            str_addr =str_addr + EachByteAddress;
+            EachByteAddress = BCDCode[addr_b / 16] + "" + BCDCode[addr_b % 16] + " ";
+            str_addr = str_addr + EachByteAddress;
         }
-        return "[ "+str_addr+" ]";
+        return "[ " + str_addr + " ]";
     }
 
-    public static int[] bytesToInts(byte[] bytes){
-        if(bytes == null || bytes.length == 0) return null;
+    public static int[] bytesToInts(byte[] bytes) {
+        if (bytes == null || bytes.length == 0) return null;
         int[] data = new int[bytes.length];
-        for(int i = 0 ; i < bytes.length; i++){
+        for (int i = 0; i < bytes.length; i++) {
             data[i] = bytes[i] & 0xff;
         }
         return data;
     }
 
     public static String intToHex(int n) {
-        if(n == 0) return "0";
+        if (n == 0) return "0";
         StringBuffer s = new StringBuffer();
         String a;
-        char[] b = {'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
-        while(n != 0){
-            s = s.append(b[n%16]);
-            n = n/16;
+        char[] b = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
+        while (n != 0) {
+            s = s.append(b[n % 16]);
+            n = n / 16;
         }
         a = s.reverse().toString();
         return a;
+    }
+
+    //把地址转化为BCD码
+    public static int[] addressToBCD(String s) {
+        String addr = s.trim();
+        //协议中
+        while (addr.length()!=12)  addr = 0+addr;
+        int[] res = new int[6];
+        for(int i = 0 ;i < 12; i+=2){
+            int idx = (12 - i) / 2;
+            res[idx-1] = Integer.valueOf(addr.substring(i,i+1));
+            res[idx-1] <<= 4;
+            res[idx-1] += Integer.valueOf(addr.substring(i+1,i+2));
+        }
+        return res;
     }
 }

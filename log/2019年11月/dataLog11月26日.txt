@@ -1,0 +1,3 @@
+2019-11-26T22:05:21.644
+ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=129, dot=2, deviceAddress='123456789012', dataType=[16, -112]}
+
