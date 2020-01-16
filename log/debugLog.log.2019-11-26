@@ -2939,7 +2939,7 @@ DEBUG 2019-11-26 22:05:21,600: io.netty.util.ResourceLeakDetector
 DEBUG 2019-11-26 22:05:21,620: io.netty.util.ResourceLeakDetector 
  -Dio.netty.leakDetectionLevel: simple 
 DEBUG 2019-11-26 22:05:21,643: Handler.MessageHandler 
- ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=129, dot=2, deviceAddress='123456789012', dataType=[16, -112]} 
+ ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=129, dot=2, centerAddress='123456789012', dataType=[16, -112]}
 DEBUG 2019-11-26 22:10:30,470: io.netty.util.internal.logging.InternalLoggerFactory 
  Using Log4J as the default logging framework 
 DEBUG 2019-11-26 22:10:30,472: io.netty.channel.MultithreadEventLoopGroup 
@@ -3035,7 +3035,7 @@ DEBUG 2019-11-26 22:10:36,795: io.netty.util.ResourceLeakDetector
 DEBUG 2019-11-26 22:10:36,819: io.netty.util.ResourceLeakDetector 
  -Dio.netty.leakDetectionLevel: simple 
 DEBUG 2019-11-26 22:10:36,835: Handler.MessageHandler 
- ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=129, dot=2, deviceAddress='123456789012', dataType=[16, -112]} 
+ ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=129, dot=2, centerAddress='123456789012', dataType=[16, -112]}
 DEBUG 2019-11-26 22:14:17,839: io.netty.util.internal.logging.InternalLoggerFactory 
  Using Log4J as the default logging framework 
 DEBUG 2019-11-26 22:14:17,841: io.netty.channel.MultithreadEventLoopGroup 
@@ -3131,7 +3131,7 @@ DEBUG 2019-11-26 22:14:28,346: io.netty.util.ResourceLeakDetector
 DEBUG 2019-11-26 22:14:28,367: io.netty.util.ResourceLeakDetector 
  -Dio.netty.leakDetectionLevel: simple 
 DEBUG 2019-11-26 22:14:28,384: Handler.MessageHandler 
- ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=129, dot=2, deviceAddress='123456789012', dataType=[16, -112]} 
+ ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=129, dot=2, centerAddress='123456789012', dataType=[16, -112]}
 DEBUG 2019-11-26 22:16:56,265: io.netty.util.internal.logging.InternalLoggerFactory 
  Using Log4J as the default logging framework 
 DEBUG 2019-11-26 22:16:56,267: io.netty.channel.MultithreadEventLoopGroup 

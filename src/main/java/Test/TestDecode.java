@@ -21,41 +21,11 @@ public class TestDecode {
 
     private int low;
     private int high;
-
-    @Test
-    public void test1() {
-        byte[] address = new byte[]{0x12, 0x12, 0x34, 0x37, 0x45, 0x23, 0x67};
-        String s = CheckUtil.GetBCDAddress(address);
-        System.out.println(s);
-
-    }
     
     @Test
     public void test2(){
         int[] a = new int[0];
         System.out.println(a.length);
-    }
-
-    @Test
-    public void test3(){
-        //发送地址
-        String s ="234567891234";
-        int a [] = ConvertUtil.addressToBCD(s);
-        System.out.println(Arrays.toString(a));
-        for (int i = 0; i <a.length ; i++) {
-            System.out.print(Integer.toHexString(a[i]));
-        }
-
-        System.out.println();
-        System.out.println();
-        //得到地址
-        byte[] b =new byte[7];
-        b[0]=0;//因为GetBCDAddress方法是从第一个开始的
-        for (int i = 0; i <6 ; i++) {
-            b[i+1]= (byte) a[i];
-        }
-        String str = CheckUtil.GetBCDAddress(b);
-        System.out.println(str);
     }
 
     @Test
@@ -137,7 +107,7 @@ public class TestDecode {
              case "A1": //主站请求读数据应答后 --> 有后续数据帧情况，需要再次请求后续数据
                  System.out.println("eeeeee");
 //                 System.out.println(TimeUtil.getCurrentTime() + " 主站请求读数据后" + "收到有后续数据帧情况 from "
-//                         + readData.getDeviceAddress()
+//                         + readData.getCenterAddress()
 //                         + " " + dataTypeString
 //                         + " = ");
                  //根据数据标识将获得的数据插入数据库
@@ -230,21 +200,6 @@ public class TestDecode {
         int num =99;
          int i = (((num / 10) << 4) & 0xf0) | ((num % 10) & 0x0f);
          System.out.println(i);
-     }
-
-     @Test
-    public void test17(){
-        String s = "101010101001";
-         int[] ints = ConvertUtil.addressToBCD(s);
-         System.out.println(Arrays.toString(ints));
-         byte[] b = new byte[ints.length+1];
-         b[0]=0;
-         for (int i=0;i<ints.length;i++){
-             b[i+1]=(byte) ints[i];
-         }
-         System.out.println(Arrays.toString(b));
-         String s1 = CheckUtil.GetBCDAddress(b);
-         System.out.println(s1);
      }
 
      @Test

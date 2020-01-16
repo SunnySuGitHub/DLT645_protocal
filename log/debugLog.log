@@ -187,7 +187,7 @@ DEBUG 2019-11-27 08:49:45,841: io.netty.util.ResourceLeakDetector
 DEBUG 2019-11-27 08:49:45,852: io.netty.util.ResourceLeakDetector 
  -Dio.netty.leakDetectionLevel: simple 
 DEBUG 2019-11-27 08:49:45,888: Handler.MessageHandler 
- 收到数据:ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=162, dot=2, deviceAddress='123456789012', dataType=[16, -112]} 
+ 收到数据:ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=162, dot=2, centerAddress='123456789012', dataType=[16, -112]}
 DEBUG 2019-11-27 08:54:15,948: io.netty.util.internal.logging.InternalLoggerFactory 
  Using Log4J as the default logging framework 
 DEBUG 2019-11-27 08:54:15,954: io.netty.channel.MultithreadEventLoopGroup 
@@ -331,7 +331,7 @@ DEBUG 2019-11-27 08:55:39,468: io.netty.util.ResourceLeakDetector
 DEBUG 2019-11-27 08:55:39,489: io.netty.util.ResourceLeakDetector 
  -Dio.netty.leakDetectionLevel: simple 
 DEBUG 2019-11-27 08:55:39,505: Handler.MessageHandler 
- 收到数据:ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=162, dot=2, deviceAddress='123456789012', dataType=[16, -112]} 
+ 收到数据:ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=162, dot=2, centerAddress='123456789012', dataType=[16, -112]}
 DEBUG 2019-11-27 08:56:31,671: io.netty.util.internal.logging.InternalLoggerFactory 
  Using Log4J as the default logging framework 
 DEBUG 2019-11-27 08:56:31,673: io.netty.channel.MultithreadEventLoopGroup 
@@ -427,7 +427,7 @@ DEBUG 2019-11-27 08:56:49,637: io.netty.util.ResourceLeakDetector
 DEBUG 2019-11-27 08:56:49,648: io.netty.util.ResourceLeakDetector 
  -Dio.netty.leakDetectionLevel: simple 
 DEBUG 2019-11-27 08:56:49,665: Handler.MessageHandler 
- 收到数据:ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=162, dot=2, deviceAddress='123456789012', dataType=[16, -112]} 
+ 收到数据:ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=162, dot=2, centerAddress='123456789012', dataType=[16, -112]}
 DEBUG 2019-11-27 09:37:30,795: org.apache.ibatis.logging.LogFactory 
  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 
 DEBUG 2019-11-27 09:37:31,095: org.apache.ibatis.datasource.pooled.PooledDataSource 
@@ -687,7 +687,7 @@ DEBUG 2019-11-27 11:14:26,111: io.netty.util.ResourceLeakDetector
 DEBUG 2019-11-27 11:14:26,142: io.netty.util.ResourceLeakDetector 
  -Dio.netty.leakDetectionLevel: simple 
 DEBUG 2019-11-27 11:14:26,169: Handler.MessageHandler 
- 收到数据:ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=162, dot=2, deviceAddress='123456789012', dataType=[16, -112]} 
+ 收到数据:ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=162, dot=2, centerAddress='123456789012', dataType=[16, -112]}
 DEBUG 2019-11-27 11:16:03,606: io.netty.util.internal.logging.InternalLoggerFactory 
  Using Log4J as the default logging framework 
 DEBUG 2019-11-27 11:16:03,608: io.netty.channel.MultithreadEventLoopGroup 
@@ -787,4 +787,60 @@ DEBUG 2019-11-27 11:16:19,101: io.netty.util.ResourceLeakDetector
 DEBUG 2019-11-27 11:16:19,132: io.netty.util.ResourceLeakDetector 
  -Dio.netty.leakDetectionLevel: simple 
 DEBUG 2019-11-27 11:16:19,148: Handler.MessageHandler 
- ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=129, dot=2, deviceAddress='123456789012', dataType=[16, -112]} 
+ ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=129, dot=2, centerAddress='123456789012', dataType=[16, -112]}
+DEBUG 2019-12-20 14:58:04,956: io.netty.util.internal.logging.InternalLoggerFactory 
+ Using Log4J as the default logging framework 
+DEBUG 2019-12-20 14:58:04,956: org.apache.ibatis.logging.LogFactory 
+ Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 
+DEBUG 2019-12-20 14:58:04,962: io.netty.channel.MultithreadEventLoopGroup 
+ -Dio.netty.eventLoopThreads: 24 
+DEBUG 2019-12-20 14:58:04,985: io.netty.channel.nio.NioEventLoop 
+ -Dio.netty.noKeySetOptimization: false 
+DEBUG 2019-12-20 14:58:04,985: io.netty.channel.nio.NioEventLoop 
+ -Dio.netty.selectorAutoRebuildThreshold: 512 
+DEBUG 2019-12-20 14:58:05,275: org.apache.ibatis.datasource.pooled.PooledDataSource 
+ PooledDataSource forcefully closed/removed all connections. 
+DEBUG 2019-12-20 14:58:05,275: org.apache.ibatis.datasource.pooled.PooledDataSource 
+ PooledDataSource forcefully closed/removed all connections. 
+DEBUG 2019-12-20 14:58:05,275: org.apache.ibatis.datasource.pooled.PooledDataSource 
+ PooledDataSource forcefully closed/removed all connections. 
+DEBUG 2019-12-20 14:58:05,276: org.apache.ibatis.datasource.pooled.PooledDataSource 
+ PooledDataSource forcefully closed/removed all connections. 
+DEBUG 2019-12-20 14:58:05,919: io.netty.channel.DefaultChannelId 
+ -Dio.netty.machineId: 00:d8:61:a6:c9:2a:00:00 (auto-detected) 
+DEBUG 2019-12-20 14:58:05,950: io.netty.channel.DefaultChannelId 
+ -Dio.netty.processId: 11024 (auto-detected) 
+DEBUG 2019-12-20 14:58:05,952: io.netty.util.internal.ThreadLocalRandom 
+ -Dio.netty.initialSeedUniquifier: 0x09f46a997f4b7bc3 
+DEBUG 2019-12-20 14:58:05,958: io.netty.channel.ChannelOutboundBuffer 
+ -Dio.netty.threadLocalDirectBufferSize: 65536 
+DEBUG 2019-12-20 14:58:05,975: io.netty.util.internal.PlatformDependent 
+ Platform: Windows 
+DEBUG 2019-12-20 14:58:05,975: io.netty.util.internal.PlatformDependent 
+ Java version: 8 
+DEBUG 2019-12-20 14:58:05,975: io.netty.util.internal.PlatformDependent 
+ -Dio.netty.noUnsafe: false 
+DEBUG 2019-12-20 14:58:05,976: io.netty.util.internal.PlatformDependent0 
+ java.nio.ByteBuffer.cleaner: unavailable 
+DEBUG 2019-12-20 14:58:05,976: io.netty.util.internal.PlatformDependent0 
+ java.nio.Buffer.address: unavailable 
+DEBUG 2019-12-20 14:58:05,976: io.netty.util.internal.PlatformDependent 
+ sun.misc.Unsafe: unavailable 
+DEBUG 2019-12-20 14:58:05,978: io.netty.util.internal.PlatformDependent 
+ maxDirectMemory: 4282384384 bytes (maybe) 
+DEBUG 2019-12-20 14:58:05,978: io.netty.util.internal.PlatformDependent 
+ -Dio.netty.noJavassist: false 
+DEBUG 2019-12-20 14:58:05,978: io.netty.util.internal.PlatformDependent 
+ Javassist: unavailable 
+DEBUG 2019-12-20 14:58:05,978: io.netty.util.internal.PlatformDependent 
+ You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance. 
+DEBUG 2019-12-20 14:58:05,978: io.netty.util.internal.PlatformDependent 
+ -Dio.netty.noPreferDirect: true 
+INFO 2019-12-20 14:58:05,978: io.netty.util.internal.PlatformDependent 
+ Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability. 
+DEBUG 2019-12-20 14:58:06,182: io.netty.util.NetUtil 
+ Loopback interface: Software Loopback Interface 1 
+DEBUG 2019-12-20 14:58:06,182: io.netty.util.NetUtil 
+ Loopback address: /127.0.0.1 (primary) 
+DEBUG 2019-12-20 14:58:06,183: io.netty.util.NetUtil 
+ Loopback address: /0:0:0:0:0:0:0:1 

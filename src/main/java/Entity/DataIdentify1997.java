@@ -135,6 +135,26 @@ public class DataIdentify1997 {
         put(Arrays.toString(new byte[]{(byte)0x40,(byte)0xB6}),2);//瞬时总无功功率
     }};
 
+    /**
+     * 控制域与其所代表含义映射map
+     */
+    private static Map<Byte ,String> CONTROLCODE_NAME =new HashMap<Byte, String>(){{
+        put((byte)0x41,"system_action");// 主站->集中器 系统动作
+        put((byte)0x48,"read_realtime");// 主站->集中器 读实时数据
+        put((byte)0x49,"read_history");//  主站->集中器 读历史数据
+        put((byte)0x4A,"read_parameter");//主站->集中器 读参数
+        put((byte)0x4B,"write_parameter");//主站->集中器 写参数
+        put((byte)0x4C,"heartbeat");//     集中器->主站 心跳包
+        put((byte)0x80,"reply_success");// 集中器->主站 确认回答
+        put((byte)0x81,"reply_failed");//  集中器->主站 否认回答
+        put((byte)0x82,"reply_pwd_error");//集中器->主站 密码错误
+        put((byte)0x83,"reply_crc_error");//集中器->主站 校验错误
+        put((byte)0x88,"reply_realtime_data");// 集中器->主站 返回实时数据
+        put((byte)0x89,"reply_history_data");//  集中器->主站 返回历史数据
+        put((byte)0x8A,"reply_read_parameter");//集中器->主站 返回读取参数
+        put((byte)0x8B,"reply_write_parameter");//集中器->主站 返回写参数数据
+    }};
+
     public DataIdentify1997() {
     }
 
@@ -154,5 +174,9 @@ public class DataIdentify1997 {
 
     public static Map<String, String> getIdentify_Name() {
         return IDENTIFY_NAME;
+    }
+
+    public static Map<Byte, String> getControlcode_Name() {
+        return CONTROLCODE_NAME;
     }
 }

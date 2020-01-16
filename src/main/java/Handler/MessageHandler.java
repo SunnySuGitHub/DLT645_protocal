@@ -2,10 +2,8 @@ package Handler;
 
 import Entity.*;
 import Params.CommandState;
-import Params.CommandType;
 import Utils.*;
 
-import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelPromise;
@@ -15,7 +13,6 @@ import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.TimeUnit;
 
 /**
  * @author: suxinyu
@@ -33,11 +30,7 @@ public class MessageHandler extends ChannelHandlerAdapter {
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
         ReadData1997 readData = (ReadData1997) msg;
-        String deviceAddress = readData.getDeviceAddress();
-        //有的回应可能没有数据标识
-        byte [] dataType = new byte[0];
-        if (readData.getDataType()!=null) dataType = readData.getDataType();
-
+        String deviceAddress = readData.getCenterAddress();
         ConcurrentHashMap<String,Device> map = GlobalMap.getMap();
 
         //处理首次上线的设备
@@ -100,13 +93,13 @@ public class MessageHandler extends ChannelHandlerAdapter {
                 //设置现在的读数据命令成功
                 DBUtil.updateCommandState(curDevice.getCurCommand().getId(),CommandState.SUCCEED);
                 System.out.println(TimeUtil.getCurrentTime() + " 主站请求读数据后" + "收到无后续数据帧情况 from "
-                        + readData.getDeviceAddress()
+                        + readData.getCenterAddress()
                         + " " + dataTypeString
                         + " = " + dataResult);
                 break;
             case "A1": //主站请求读数据应答后 --> 有后续数据帧情况，需要再次请求后续数据
                 System.out.println(TimeUtil.getCurrentTime() + " 主站请求读数据后" + "收到有后续数据帧情况 from "
-                        + readData.getDeviceAddress()
+                        + readData.getCenterAddress()
                         + " " + dataTypeString
                         + " = ");
                 //根据数据标识将获得的数据插入数据库
@@ -122,7 +115,7 @@ public class MessageHandler extends ChannelHandlerAdapter {
 
             case "82": //主站读后续数据请求应答后 --> 无后续数据帧情况
                 System.out.println(TimeUtil.getCurrentTime() + " 主站请求读后续数据后" + "收到无后续数据帧情况 from "
-                        + readData.getDeviceAddress()
+                        + readData.getCenterAddress()
                         + " " + dataTypeString
                         + " = ");
                 //根据数据标识将获得的数据插入数据库
@@ -149,7 +142,7 @@ public class MessageHandler extends ChannelHandlerAdapter {
             //关于重读数据，可能不是一个从数据库获得的命令，此处暂时当作这样
             case "83": //主站重读数据请求应答后 --> 无后续数据帧情况
                 System.out.println(TimeUtil.getCurrentTime() + " 主站请求重读数据后" + "收到无后续数据帧情况 from "
-                        + readData.getDeviceAddress()
+                        + readData.getCenterAddress()
                         + " " + dataTypeString
                         + " = ");
                 //根据数据标识将获得的数据插入数据库
@@ -213,13 +206,14 @@ public class MessageHandler extends ChannelHandlerAdapter {
     }
 
     private double getDataResult(ReadData1997 readData) {
-        int[] data = readData.getEffectiveData();
-        StringBuilder sb = new StringBuilder();
-        for (int i = data.length - 1; i >= 0; i--) {
-            sb.append(data[i]);
-        }
-        sb.insert(sb.length() - readData.getDot(), ".");
-        return Double.valueOf(sb.toString());
+//        int[] data = readData.getEffectiveData();
+////        StringBuilder sb = new StringBuilder();
+////        for (int i = data.length - 1; i >= 0; i--) {
+////            sb.append(data[i]);
+////        }
+////        sb.insert(sb.length() - readData.getDot(), ".");
+////        return Double.valueOf(sb.toString());
+        return 0.0;
     }
 
     @Override

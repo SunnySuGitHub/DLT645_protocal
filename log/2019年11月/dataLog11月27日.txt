@@ -1,15 +1,15 @@
 2019-11-27T08:49:45.889
-60pn:ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=162, dot=2, deviceAddress='123456789012', dataType=[16, -112]}
+60pn:ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=162, dot=2, centerAddress='123456789012', dataType=[16, -112]}
 
 2019-11-27T08:55:39.506
-60pn:ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=162, dot=2, deviceAddress='123456789012', dataType=[16, -112]}
+60pn:ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=162, dot=2, centerAddress='123456789012', dataType=[16, -112]}
 
 2019-11-27T08:56:49.666
-60pn:ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=162, dot=2, deviceAddress='123456789012', dataType=[16, -112]}
+60pn:ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=162, dot=2, centerAddress='123456789012', dataType=[16, -112]}
 
 2019-11-27T11:14:26.171
-60pn:ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=162, dot=2, deviceAddress='123456789012', dataType=[16, -112]}
+60pn:ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=162, dot=2, centerAddress='123456789012', dataType=[16, -112]}
 
 2019-11-27T11:16:19.149
-ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=129, dot=2, deviceAddress='123456789012', dataType=[16, -112]}
+ReadData1997{effectiveData=[23, 34, 23, 41], controlCode=129, dot=2, centerAddress='123456789012', dataType=[16, -112]}
 

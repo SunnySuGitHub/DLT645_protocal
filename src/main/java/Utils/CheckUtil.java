@@ -10,9 +10,13 @@ import static java.lang.System.arraycopy;
  */
 public class CheckUtil {
 
-    public static String GetBCDAddress(byte[] address) {
-        byte[] byteAddress = new byte[6];
-        arraycopy(address, 1, byteAddress, 0, 6);
+    public static String GetCenterAddr(byte[] msg, String dataType) {
+        byte[] byteAddress = new byte[4];
+        if(dataType.equals("fixed")) {
+            arraycopy(msg, 2, byteAddress, 0, 4);
+        } else {
+            arraycopy(msg, 5, byteAddress, 0, 4);
+        }
         String addr = "";
         String EachByteAddress;
         int bitData;
@@ -28,6 +32,17 @@ public class CheckUtil {
         return addr;
     }
 
+    public static int getDataLength(byte[] l) {
+        if(l.length != 2) {
+            return -1;
+        }
+        byte low = l[0];
+        byte high = l[1];
+        high &= 0x03;
+        int res = (high&0xff)<<8|(low&0xff);
+        return res;
+    }
+
     public static boolean checkData(byte[] data) {
         byte s = 0;
         int j;
@@ -36,7 +51,6 @@ public class CheckUtil {
                 break;
             }
         }
-
         for(int i=0;i<j-1;i++) {
             s += (data[i] & 0xff) % 256;
         }

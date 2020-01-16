@@ -1,93 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/Entity/ReadData1997.java" line="35" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bb18563a-5b0c-4101-829b-4dd40eb9d821" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/2019年11月/dataLog11月26日.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/2019年11月/dataLog11月27日.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/2019年12月/dataLog12月3日.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/2019年12月/dataLog12月9日.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/debugLog.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/debugLog.log.2019-11-26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Entity/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Entity/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Entity/SendData1997.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Handler/SendHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Params/CommandState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Params/CommandType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Params/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Server/CommandExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Server/CommandFetcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Server/ConditionMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/Client2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/TestCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/TestDecode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/TestMyBatis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/DBUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/LogUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/MyBatis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mappers/CommandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mappers/CommandMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mappers/DeviceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mappers/DeviceMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Entity/Command.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Entity/Device.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Entity/SendData1997.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Handler/SendHelper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Params/CommandState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Params/CommandType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Params/Constants.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Server/CommandExecutor$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Server/CommandExecutor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Server/CommandFetcher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Server/ConditionMonitor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Test/Client$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Test/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Test/Client2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Test/Client2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Test/ClientHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Test/TestCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Test/TestDecode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Test/TestMyBatis.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Utils/DBUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Utils/LogUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Utils/MyBatis.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mappers/CommandMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mappers/CommandMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mappers/DeviceMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mappers/DeviceMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/CheckUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/2019年11月/dataLog11月26日.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/2019年11月/dataLog11月26日.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/2019年11月/dataLog11月27日.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/2019年11月/dataLog11月27日.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/2019年12月/dataLog12月3日.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/2019年12月/dataLog12月3日.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/2019年12月/dataLog12月9日.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/2019年12月/dataLog12月9日.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/debugLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/debugLog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/debugLog.log.2019-11-26" beforeDir="false" afterPath="$PROJECT_DIR$/log/debugLog.log.2019-11-26" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entity/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entity/Command.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Entity/DataIdentify1997.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entity/DataIdentify1997.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Entity/GlobalMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entity/GlobalMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Entity/ReadData1997.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entity/ReadData1997.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Handler/BufferedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Handler/BufferedHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Handler/MessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Handler/MessageHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/TestDecode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/TestDecode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Utils/CheckUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/CheckUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/ConvertUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/ConvertUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/TimeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/TimeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Entity/DataIdentify1997$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Entity/DataIdentify1997$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Entity/DataIdentify1997$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Entity/DataIdentify1997.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Entity/GlobalMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Entity/ReadData1997.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Handler/BufferedHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Handler/MessageHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Server/Server$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Server/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utils/CheckUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utils/ConvertUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utils/TimeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mappers/CommandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mappers/CommandMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entity/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entity/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entity/Device.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entity/Device.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entity/SendData1997.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entity/SendData1997.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Handler/SendHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Handler/SendHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Params/CommandState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Params/CommandState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Params/CommandType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Params/CommandType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Params/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Params/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Server/CommandExecutor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Server/CommandExecutor$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Server/CommandExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Server/CommandExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Server/CommandFetcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Server/CommandFetcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Server/ConditionMonitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Server/ConditionMonitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/Client$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/Client2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/Client2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/Client2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/Client2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/TestCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/TestCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/TestDecode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/TestDecode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/TestMyBatis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/TestMyBatis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/DBUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utils/DBUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/LogUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utils/LogUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/MyBatis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utils/MyBatis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/CommandMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/CommandMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/CommandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/CommandMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/DeviceMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/DeviceMapper.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,11 +57,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Server/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="37" column="67" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Handler/BufferedHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="185">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,13 +82,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Entity/ReadData1997.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Handler/MessageHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -129,6 +96,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -136,6 +104,7 @@
     <findStrings>
       <find>WindowsFrame.textArea1997.append</find>
       <find>GetTime.NowTime()</find>
+      <find>dis</find>
     </findStrings>
     <replaceStrings>
       <replace>System.out.println</replace>
@@ -148,19 +117,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Entity/GlobalMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/Entity/DataIdentify.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utils/TimeUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utils/ConvertUtil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Server/Server.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Entity/DataIdentify1997.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Test/TestDecode.java" />
         <option value="$PROJECT_DIR$/src/main/java/Server/CommandExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/java/Handler/SendHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Handler/MessageHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Entity/Command.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Test/TestDecode.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Utils/CheckUtilTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utils/CheckUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Entity/SendData1997.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Entity/GlobalMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Entity/Device.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Entity/DataIdentify1997.java" />
         <option value="$PROJECT_DIR$/src/main/java/Entity/ReadData1997.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Server/Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Handler/MessageHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/Handler/BufferedHandler.java" />
       </list>
     </option>
@@ -225,6 +198,22 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Params" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -236,7 +225,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576810435605" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578406133877" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../采集相关文件/新版采集程序/源代码/CenterCollectSystem" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -245,6 +236,14 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Utils" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -258,7 +257,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CheckUtil">
+    <configuration name="CheckUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Utils.CheckUtil" />
+      <module name="DLT645_decode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Server.Server" />
       <module name="DLT645_decode" />
@@ -272,8 +284,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CheckUtilTest.getCenterAddr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DLT645_decode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Utils" />
+      <option name="MAIN_CLASS_NAME" value="Utils.CheckUtilTest" />
+      <option name="METHOD_NAME" value="getCenterAddr" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckUtil" />
+        <item itemvalue="JUnit.CheckUtilTest.getCenterAddr" />
         <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
@@ -292,27 +322,35 @@
       <workItem from="1573817883609" duration="14939000" />
       <workItem from="1574214716340" duration="594000" />
       <workItem from="1574390384432" duration="165000" />
-      <workItem from="1576810727902" duration="582000" />
+      <workItem from="1576810727902" duration="10511000" />
+      <workItem from="1577023810454" duration="15000" />
+      <workItem from="1578401583960" duration="1502000" />
+      <workItem from="1578557927292" duration="10000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CheckUtilTest_getCenterAddr - 2019.12.20 at 15h 28m 49s.xml">
+      <configuration name="CheckUtilTest.getCenterAddr" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25038000" />
+    <option name="totallyTimeSpent" value="36494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21588486" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15938166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Statistic" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30043384" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1637744" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.06616052" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -320,9 +358,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.6670282" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4262473" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.19739696" />
+      <window_info anchor="bottom" id="Statistic" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -369,16 +408,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/GlobalMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="81" selection-start-line="23" selection-start-column="81" selection-end-line="23" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Utils/TimeUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -410,18 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Server/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="29" column="71" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2265#2266#0" expanded="true" />
-            <element signature="e#2294#2295#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1.jar!/io/netty/channel/ChannelHandlerInvokerUtil.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -447,24 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="71" column="28" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ConvertUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/DataIdentify1997.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
-          <folding>
-            <element signature="e#8947#8948#0" expanded="true" />
-            <element signature="e#8983#8984#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -513,24 +512,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test/TestDecode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1785">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Test/TestMyBatis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Handler/MessageHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-546">
-          <caret line="52" column="80" selection-start-line="52" selection-start-column="80" selection-end-line="52" selection-end-column="80" />
         </state>
       </provider>
     </entry>
@@ -548,13 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/CheckUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Server/CommandExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
@@ -562,20 +540,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/ReadData1997.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/Command.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        <state relative-caret-position="-312">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ConvertUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test/TestDecode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utils/CheckUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/CheckUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/SendData1997.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-539">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/ReadData1997.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1833#1834#0" expanded="true" />
+            <element signature="e#1867#1868#0" expanded="true" />
+            <element signature="e#1921#1922#0" expanded="true" />
+            <element signature="e#1967#1968#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#2038#2039#0" expanded="true" />
+            <element signature="e#2091#2092#0" expanded="true" />
+            <element signature="e#2135#2136#0" expanded="true" />
+            <element signature="e#2175#2176#0" expanded="true" />
+            <element signature="e#2211#2212#0" expanded="true" />
+            <element signature="e#2269#2270#0" expanded="true" />
+            <element signature="e#2319#2320#0" expanded="true" />
+            <element signature="e#2355#2356#0" expanded="true" />
+            <element signature="e#2389#2390#0" expanded="true" />
+            <element signature="e#2441#2442#0" expanded="true" />
+            <element signature="e#2487#2488#0" expanded="true" />
+            <element signature="e#2527#2528#0" expanded="true" />
+            <element signature="e#2563#2564#0" expanded="true" />
+            <element signature="e#2621#2622#0" expanded="true" />
+            <element signature="e#2671#2672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/DataIdentify1997.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3570">
+          <caret line="179" column="32" selection-start-line="179" selection-start-column="32" selection-end-line="179" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/Device.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/GlobalMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="37" column="67" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Handler/MessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Handler/BufferedHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="185">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
